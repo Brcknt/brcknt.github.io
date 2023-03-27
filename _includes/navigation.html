@@ -1,0 +1,16 @@
+<div class="header">
+    <span class="headerlogo">
+        <a href="/" style="color:white; text-decoration: none;">Brcknt_</a>
+    </span>
+    <span class="navbar">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}"
+                {% if page.url == item.link  %}
+                    class="currentlink"
+                {% endif %}
+            >
+                {{ item.name }}
+            </a>
+        {% endfor %}
+    </span>
+</div>
