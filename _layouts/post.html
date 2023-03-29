@@ -18,13 +18,14 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&family=Roboto+Slab:wght@100;200;300;400;500;700&family=Fredoka:wght@300;400;500&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/blogpost.css">
 </head>
 
 <body>
     {% include navigation.html %}
     <div class="section">
         <a href="/blog">Back</a>
+        <h1>{{ page.title }}</h1>
         {{content}}
     </div>
     <div class="line sndstn2"></div>

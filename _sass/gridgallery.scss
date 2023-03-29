@@ -1,0 +1,33 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+img.grid-tall {
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+img.grid-wide {
+    grid-column: span 4;
+    grid-row: span 1;
+}
+
+img.grid-square {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+img.grid-square-small {
+    grid-column: span 1;
+    grid-row: span 1;
+}

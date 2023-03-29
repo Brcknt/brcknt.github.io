@@ -1,0 +1,18 @@
+.hero-image {
+    display: flex;
+    background-image: url(/assets/images/gridgallery/vivec.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    margin: 50px;
+    padding: 20px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: var(--textwhite);
+    text-shadow: 0 0 5px black;
+}
