@@ -1,0 +1,54 @@
+/* 
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Righteous', sans-serif;
+font-family: 'Roboto Slab', sans-serif;
+font-family: 'Fredoka', sans-serif;
+*/
+
+html {
+    font-size: 18px;
+}
+
+
+h1 {
+    margin: 0.5em 0;
+    font-family: 'Righteous', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2{
+    margin: 0.5em 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+h3 {
+    margin: 0.5em 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+h4 {
+    margin: 0.6em 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+
+
+p {
+    margin: 1em 0;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}

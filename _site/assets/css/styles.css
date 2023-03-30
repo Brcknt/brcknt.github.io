@@ -1,3 +1,25 @@
+:root {
+  --themeblack: #383d3b;
+  --themewhite: white;
+  --themewhite2: #f3f0eb;
+  --theme0: #a37666;
+  --theme1: #e6bd8b;
+  --theme2: #f1d9b9;
+  --theme3: #c1a381;
+  --accent1: #e595f0;
+  --accent0: #be6fff;
+  --accent2: #32a852;
+  --accent3: #2191fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 /* 
 font-family: 'IBM Plex Mono', monospace;
 font-family: 'Jost', sans-serif;
@@ -10,63 +32,57 @@ font-family: 'Righteous', sans-serif;
 font-family: 'Roboto Slab', sans-serif;
 font-family: 'Fredoka', sans-serif;
 */
-:root {
-  --granite: #a37666;
-  --lgrey: #f3f0eb;
-  --textwhite: white;
-  --textblack: black;
-  --sndstn0: #ffffff;
-  --sndstn1: #f1d9b9;
-  --sndstn2: #e6bd8b;
-  --sndstn3: #c1a381;
-  --green: #32a852;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 18px;
 }
 
-body {
-  margin: 0;
-}
-
 h1 {
-  font-family: "Righteous", cursive;
+  margin: 0.5em 0;
+  font-family: "Righteous", sans-serif;
+  font-size: 3em;
+  text-align: center;
 }
 
-/* Hero Heading */
 h2 {
-  margin: 0.2em 0;
-  font-family: "Fredoka", sans-serif;
+  margin: 0.5em 0;
+  font-family: "Quicksand", sans-serif;
   font-size: 2em;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
 }
 
 h3 {
   margin: 0.5em 0;
-  font-family: "Fredoka", sans-serif;
-  font-weight: 400;
+  font-family: "Quicksand", sans-serif;
   font-size: 1.5em;
+  font-weight: 500;
 }
 
 h4 {
-  margin: 0.5em 0;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
+  margin: 0.6em 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
 }
 
 p {
-  margin: 0.5em 0;
+  margin: 1em 0;
   font-family: "Jost", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
+/* 
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Righteous', sans-serif;
+font-family: 'Roboto Slab', sans-serif;
+font-family: 'Fredoka', sans-serif;
+*/
 .line {
   height: 10px;
 }
@@ -75,22 +91,37 @@ p {
   display: flex;
 }
 
-.grid-container {
+.grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
-.header {
+header {
   position: sticky;
   top: 0;
   left: 0;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  background-color: var(--granite);
-  color: var(--textwhite);
+  background-color: var(--theme0);
+  color: var(--themewhite);
   font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
   box-shadow: 0 0 10px black;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--theme0);
+  color: var(--themewhite);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  padding: 10px;
 }
 
 .headerlogo {
@@ -99,6 +130,8 @@ p {
   padding-bottom: 2px;
   font-size: 32px;
   margin-left: 10px;
+  color: var(--themewhite);
+  text-decoration: none;
 }
 
 .navbar {
@@ -112,43 +145,23 @@ p {
   margin-left: 10px;
   /* Bottom padding is because of Bebas Neue weird bottom spacing */
   padding: 5px 10px 0 10px;
-  background-color: var(--granite);
-  color: var(--textwhite);
+  background-color: var(--theme0);
+  color: var(--themewhite);
   font-size: 1.5em;
   text-decoration: none;
 }
 
 .navbar a.currentlink {
-  color: var(--sndstn1);
+  color: var(--theme2);
 }
 
-.section {
-  padding: 5%;
+section {
+  padding: 0 3rem;
 }
 
 .sidebar {
   font-size: 0.9em;
   padding: 30px;
-}
-
-.sndstn0 {
-  background-color: var(--sndstn0);
-}
-
-.sndstn1 {
-  background-color: var(--sndstn1);
-}
-
-.sndstn2 {
-  background-color: var(--sndstn2);
-}
-
-.sndstn3 {
-  background-color: var(--sndstn3);
-}
-
-.lgrey {
-  background-color: var(--lgrey);
 }
 
 .gallery {
@@ -195,12 +208,8 @@ img.grid-square-small {
 }
 
 .hero-text {
-  margin: 50px;
-  padding: 20px;
-  font-family: "Righteous", sans-serif;
-  font-weight: 500;
-  font-size: 32px;
-  color: var(--textwhite);
+  margin: 30px;
+  color: var(--themewhite);
   text-shadow: 0 0 5px black;
 }
 
