@@ -1,15 +1,66 @@
-/* 
-font-family: 'IBM Plex Mono', monospace;
-font-family: 'Jost', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Share Tech Mono', monospace;
-font-family: 'Ubuntu', sans-serif;
+:root {
+  --themeblack: #383d3b;
+  --themewhite: white;
+  --themewhite2: #f3f0eb;
+  --theme0: #b9746b;
+  --theme1: #e6bd8b;
+  --theme2: #f1d9b9;
+  --theme3: #c1a381;
+  --accent1: #e595f0;
+  --accent0: #be6fff;
+  --accent2: #32a852;
+  --accent3: #2191fb;
+}
 
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Righteous', sans-serif;
-font-family: 'Roboto Slab', sans-serif;
-font-family: 'Fredoka', sans-serif;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*font-family: 'Inconsolata', monospace;
+font-family: 'Jost', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto Slab', serif;
 */
+html {
+  font-size: 18px;
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "Jost", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Lexend", sans-serif;
+  font-weight: 300;
+}
+
 .line {
   height: 10px;
 }
@@ -32,29 +83,28 @@ header {
   align-items: center;
   background-color: var(--theme0);
   color: var(--themewhite);
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
   font-weight: bold;
+  text-transform: uppercase;
   box-shadow: 0 0 10px black;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   background-color: var(--theme0);
   color: var(--themewhite);
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
   font-weight: bold;
   text-align: center;
+  text-transform: uppercase;
   box-shadow: 0 0 10px black;
   padding: 10px;
 }
 
 .headerlogo {
   padding: 5px;
-  /* Bottom padding is because of Bebas Neue weird bottom spacing */
-  padding-bottom: 2px;
   font-size: 32px;
   margin-left: 10px;
   color: var(--themewhite);
@@ -70,11 +120,9 @@ footer {
 .navbar a {
   display: inline-block;
   margin-left: 10px;
-  /* Bottom padding is because of Bebas Neue weird bottom spacing */
-  padding: 5px 10px 0 10px;
+  padding: 5px 10px;
   background-color: var(--theme0);
   color: var(--themewhite);
-  font-size: 1.5em;
   text-decoration: none;
 }
 
@@ -89,13 +137,6 @@ section {
 .sidebar {
   font-size: 0.9em;
   padding: 30px;
-}
-
-h1 {
-  margin: 0.5em 0;
-  font-family: "Fredoka", sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=blogpost.css.map */

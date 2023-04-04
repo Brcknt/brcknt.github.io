@@ -1,15 +1,3 @@
-/* 
-font-family: 'IBM Plex Mono', monospace;
-font-family: 'Jost', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-family: 'Share Tech Mono', monospace;
-font-family: 'Ubuntu', sans-serif;
-
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Righteous', sans-serif;
-font-family: 'Roboto Slab', sans-serif;
-font-family: 'Fredoka', sans-serif;
-*/
 
 .line {
     height: 10px;
@@ -33,29 +21,28 @@ header {
     align-items: center;
     background-color: var(--theme0);
     color: var(--themewhite);
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
     font-weight: bold;
+    text-transform: uppercase;
     box-shadow: 0 0 10px black;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width:100%;
     background-color: var(--theme0);
     color: var(--themewhite);
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
     font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
     box-shadow: 0 0 10px black;
     padding:10px;
 }
 
 .headerlogo {
     padding: 5px;
-    /* Bottom padding is because of Bebas Neue weird bottom spacing */
-    padding-bottom: 2px;
     font-size: 32px;
     margin-left: 10px;
     color:var(--themewhite);
@@ -71,11 +58,9 @@ footer {
 .navbar a {
     display: inline-block;
     margin-left: 10px;
-    /* Bottom padding is because of Bebas Neue weird bottom spacing */
-    padding: 5px 10px 0 10px;
+    padding: 5px 10px;
     background-color: var(--theme0);
     color: var(--themewhite);
-    font-size: 1.5em;
     text-decoration: none;
 }
 
