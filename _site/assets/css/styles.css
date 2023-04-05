@@ -67,6 +67,8 @@ p {
 
 .flex-container {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .grid {
@@ -78,6 +80,7 @@ header {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -131,7 +134,8 @@ footer {
 }
 
 section {
-  padding: 0 3rem;
+  padding-inline: max(5rem, 50% - 50rem);
+  padding-block: 1rem;
 }
 
 .sidebar {
@@ -175,7 +179,7 @@ img.grid-square-small {
 
 .hero-image {
   display: flex;
-  background-image: url(/assets/images/gridgallery/vivec.jpg);
+  background-image: url(/assets/images/vivec.jpg);
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -191,6 +195,66 @@ img.grid-square-small {
   font-weight: 600;
   text-align: center;
   text-shadow: 0 0 5px black;
+}
+
+:root {
+  --tilt:5deg;
+  --tilt-inverse:calc(-1*var(--tilt));
+}
+
+.tiltright, .tiltleft {
+  height: 30rem;
+  margin-block: 4.5vw;
+  background-color: var(--themewhite2);
+  overflow: hidden;
+  box-shadow: 3px 2px 5px black;
+}
+
+.tiltleft {
+  transform: skewY(var(--tilt-inverse));
+}
+
+.tiltright {
+  transform: skewY(var(--tilt));
+}
+
+.untiltleft, .untiltright {
+  padding-block: 4.5vw;
+}
+
+.untiltleft > * {
+  transform: skewY(var(--tilt));
+}
+
+.untiltright > * {
+  transform: skewY(var(--tilt-inverse));
+}
+
+div.untiltleft, div.untiltright {
+  padding-block: max(4.5vw, 2rem);
+  padding-inline: 2rem;
+  width: 200px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.tiltleft > img, .tiltright > img {
+  object-fit: cover;
+  background-position: center;
+  background-attachment: local;
+  height: calc(100% + 9vw);
+  margin-block: -4.5vw;
+  width: 200px;
+  flex-basis: 0;
+  flex-grow: 2;
+}
+
+.tiltleft > img {
+  transform: skewY(var(--tilt));
+}
+
+.tiltright > img {
+  transform: skewY(var(--tilt-inverse));
 }
 
 /*# sourceMappingURL=styles.css.map */

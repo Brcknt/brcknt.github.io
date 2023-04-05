@@ -5,6 +5,8 @@
 
 .flex-container {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .grid {
@@ -16,6 +18,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -69,7 +72,8 @@ footer {
 }
 
 section {
-    padding: 0 3rem;
+    padding-inline: max(5rem,calc(50% - 50rem));
+    padding-block: 1rem;
 }
 
 .sidebar {
