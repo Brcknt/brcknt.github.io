@@ -1,7 +1,8 @@
 :root {
+    --textblack:#111714;
     --themeblack: #383d3b;
-    --themewhite: white;
-    --themewhite2: #f3f0eb;
+    --themewhite: #fff6f3;
+    --themewhite2: #f0ece6;
     --theme0: #b9746b;
     --theme1: #e6bd8b;
     --theme2: #f1d9b9;
@@ -18,4 +19,9 @@
 
 body {
     margin: 0;
+    //background-color: var(--themewhite);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
