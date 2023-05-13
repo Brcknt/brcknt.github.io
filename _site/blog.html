@@ -2,23 +2,25 @@
 <html>
 
 <head>
-    <title>Brcknt_</title>
+    <title>Blog</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght,HEXP@200..700,1..100">
-
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <link rel="stylesheet" href="/assets/css/blog-page.css">
 </head>
 
-<body style="background-image: url(assets/images/progression/dave.png);">
+<body>
     <header>
-        <a href="/" class="headerlogo">Brcknt_</a>
-    <span class="navbar">
+        Blog
+    </header>
+    <nav>
+    <img src="assets/logo/logo-wide-color.svg" alt="">
+    <span class="nav-link-container">
         
             <a href="/"
                 
@@ -28,7 +30,7 @@
         
             <a href="/blog.html"
                 
-                    class="currentlink"
+                    class="current-link"
                 
             >
                 Blog
@@ -41,39 +43,60 @@
             </a>
         
     </span>
-</header>
-    <h3>Blogo</h3>
-
-<ul>
-    
-        <li>
-            <h3>
-                <a href="/2023/04/04/Resume.html">Resume</a>
-            </h3>
-            <h2 id="3d-artist-resume">3D Artist Resume</h2>
- and more
-        </li>
-    
-        <li>
-            <h3>
-                <a href="/2023/03/29/different-CSS-stYles.html">Different Css Styles</a>
-            </h3>
-            <p>I wonder if I can make this page use a different stylesheet</p>
- and more
-        </li>
-    
-        <li>
-            <h3>
-                <a href="/2023/03/27/jekyll.html">Jekyll</a>
-            </h3>
-            <p>This website was created using a static website generator called Jekyll</p>
- and more
-        </li>
-    
-</ul>
+</nav>
+    <section class="blog-card-container">
+        
+            
+                <a href="/2023/05/13/dave.html" style="background-image: url(https://images.uesp.net/f/f1/MW-concept-17.jpg);" class="blog-card-image">
+                <div class="shadow-caption">
+                    Dave
+                </div>
+                </a>
+            
+        
+            
+                <a href="/2023/03/27/jekyll.html" class="blog-card-text">
+                <h2>Jekyll</h2>
+                This website was created using Jekyll, a static-site generation tool
+                </a>
+            
+        
+            
+                <a href="/2023/01/29/space-pyramid-Copy.html" style="background-image: url(/assets/images/gridgallery/pyramid.png);" class="blog-card-image">
+                <div class="shadow-caption">
+                    Space Pyramid   copy
+                </div>
+                </a>
+            
+        
+            
+                <a href="/2023/01/01/old.html" class="blog-card-text">
+                <h2>My Old Stuff --></h2>
+                This is the totally arbitrary point that I define "old" to be. This also means that anything here is from long enough before I created this website for me to remember many specific details. All posts have been back-dated to when the main image was created.
+                </a>
+            
+        
+            
+                <a href="/2021/10/20/k-2so.html" style="background-image: url(/assets/images/gridgallery/k2so.jpg);" class="blog-card-image">
+                <div class="shadow-caption">
+                    K-2SO
+                </div>
+                </a>
+            
+        
+            
+                <a href="/2021/09/17/vivec-city.html" style="background-image: url(/assets/images/gridgallery/vivec.jpg);" class="blog-card-image">
+                <div class="shadow-caption">
+                    Vivec City
+                </div>
+                </a>
+            
+        
+    </section>
     <footer>
-    Some Footer Text
+    <img src="/assets/logo/logo-wide-black.svg" style="display: block; height: calc(2rem + 10px); margin: auto;" alt="Bryce Knight">
 </footer>
 </body>
 
 </html>
+
