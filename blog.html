@@ -23,7 +23,7 @@ title: "Blog"
         {{ page.title }}
     </header>
     {% include navigation.html %}
-    <section class="blog-card-container">
+    <div class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
                 <a href="{{ post.url }}" class="blog-card-image">
@@ -40,7 +40,7 @@ title: "Blog"
             {% endif %}
         {% endfor %}
         <div class="blog-card-empty"></div>
-    </section>
+            </div>
     {% include footer.html %}
 </body>
 

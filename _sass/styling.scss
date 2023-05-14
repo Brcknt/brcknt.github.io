@@ -14,15 +14,13 @@ nav {
     display: flex;
 
     z-index: 1;
-
+    height: auto;
     background: var(--color-white);
     margin-inline: 5%;
     border-bottom: 5px solid var(--color-tan-3);
 }
 
 .nav-link-container {
-    position: absolute;
-    top:0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -87,4 +85,12 @@ blockquote {
 
 .bar-slate * {
     color: var(--color-white);
+}
+
+.bar-tan {
+    background-color: var(--color-tan-2);
+}
+
+footer {
+    
 }

@@ -36,7 +36,7 @@ img {
 }
 
 html {
-  font-size: 20px;
+  font-size: 24px;
   font-family: "Lexend", sans-serif;
   font-weight: 200;
   color: var(--color-black);
@@ -70,14 +70,13 @@ nav {
   top: 0;
   display: flex;
   z-index: 1;
+  height: auto;
   background: var(--color-white);
   margin-inline: 5%;
   border-bottom: 5px solid var(--color-tan-3);
 }
 
 .nav-link-container {
-  position: absolute;
-  top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -142,6 +141,10 @@ blockquote {
 
 .bar-slate * {
   color: var(--color-white);
+}
+
+.bar-tan {
+  background-color: var(--color-tan-2);
 }
 
 /*# sourceMappingURL=default-styles.css.map */
