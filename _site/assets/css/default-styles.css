@@ -69,6 +69,7 @@ nav {
   position: sticky;
   top: 0;
   display: flex;
+  z-index: 1;
   background: var(--color-white);
   margin-inline: 5%;
   border-bottom: 5px solid var(--color-tan-3);
@@ -104,8 +105,8 @@ nav a.current-link {
   color: var(--color-red-4);
 }
 
-article {
-  max-width: 100rem;
+article, section {
+  max-width: 60rem;
   padding: 2rem;
   margin: auto;
 }
@@ -129,6 +130,18 @@ img.image-inside {
 
 blockquote {
   font-style: italic;
+}
+
+.bar-white {
+  background-color: var(--color-white);
+}
+
+.bar-slate {
+  background-color: var(--color-slate-3);
+}
+
+.bar-slate * {
+  color: var(--color-white);
 }
 
 /*# sourceMappingURL=default-styles.css.map */

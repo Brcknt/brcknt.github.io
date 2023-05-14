@@ -8,12 +8,17 @@
     background: #a1adb7;
 }
 
+.blog-card-empty {
+    flex-grow: 100;
+}
+
 .blog-card-text {
+    flex-basis: 20rem;
     text-decoration: none;
     display: block;
-    width: 20rem;
+    width: 15rem;
     height: 20rem;
-    flex-grow: 5;
+    flex-grow: 2;
     margin: 0;
     background: var(--color-white);
     padding:1rem;
@@ -21,6 +26,7 @@
 }
 
 .blog-card-image {
+    flex-basis: auto;
     position: relative;
     display: block;
     flex-grow: 1;
@@ -28,14 +34,14 @@
     margin: 0;
     background: var(--color-white);
     text-decoration: none;
-    height: 20rem;
 }
 
 .blog-card-image img {
-    width: 100%;
-    height: 100%;
-    background-position: center;
+    display: block;
     object-fit: cover;
+    object-position: center;
+    max-height: 20rem;
+    width: 100%;
 }
 
 .shadow-caption {
