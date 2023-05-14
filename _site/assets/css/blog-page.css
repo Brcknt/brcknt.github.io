@@ -36,8 +36,9 @@ img {
 }
 
 html {
+  font-size: 20px;
   font-family: "Lexend", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: var(--color-black);
 }
 
@@ -47,23 +48,17 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
-h3 {
-  padding-left: 1rem;
-}
-
-h4 {
-  padding-left: 2rem;
-}
-
-h5 {
-  padding-left: 3rem;
+p {
+  line-height: 1.5em;
 }
 
 header {
   background-color: var(--color-slate-0);
   color: var(--color-white);
+  text-transform: uppercase;
   font-size: 3rem;
   font-weight: 500;
   padding: 1rem;
@@ -146,32 +141,34 @@ blockquote {
   background: #a1adb7;
 }
 
-.blog-card-image, .blog-card-text {
-  max-height: 30rem;
+.blog-card-text {
   text-decoration: none;
   display: block;
   width: 20rem;
-  max-width: 30rem;
-  flex-grow: 1;
+  height: 20rem;
+  flex-grow: 5;
   margin: 0;
-  border: 10px solid var(--color-slate-2);
-  border-radius: 30px;
-  border-radius: 30px;
   background: var(--color-white);
-  box-shadow: 0.5rem 0.5rem 1rem #8c979f, -0.5rem -0.5rem 1rem #b6c3cf;
+  padding: 1rem;
+  color: black;
 }
 
 .blog-card-image {
   position: relative;
-  height: 15rem;
+  display: block;
+  flex-grow: 1;
   overflow: hidden;
-  background-position: center;
-  background-size: cover;
+  margin: 0;
+  background: var(--color-white);
+  text-decoration: none;
+  height: 20rem;
 }
 
-.blog-card-text {
-  padding: 1rem;
-  color: black;
+.blog-card-image img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
 }
 
 .shadow-caption {
@@ -184,6 +181,7 @@ blockquote {
   font-size: 2rem;
   font-weight: 500;
   padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 /*# sourceMappingURL=blog-page.css.map */

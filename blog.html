@@ -26,7 +26,8 @@ title: "Blog"
     <section class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
-                <a href="{{ post.url }}" style="background-image: url({{post.image}});" class="blog-card-image">
+                <a href="{{ post.url }}" class="blog-card-image">
+                <img src="{{post.image}}" alt="hmm">
                 <div class="shadow-caption">
                     {{ post.title }}
                 </div>

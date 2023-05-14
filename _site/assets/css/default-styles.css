@@ -36,8 +36,9 @@ img {
 }
 
 html {
+  font-size: 20px;
   font-family: "Lexend", sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   color: var(--color-black);
 }
 
@@ -47,23 +48,17 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   text-align: center;
+  text-transform: uppercase;
 }
 
-h3 {
-  padding-left: 1rem;
-}
-
-h4 {
-  padding-left: 2rem;
-}
-
-h5 {
-  padding-left: 3rem;
+p {
+  line-height: 1.5em;
 }
 
 header {
   background-color: var(--color-slate-0);
   color: var(--color-white);
+  text-transform: uppercase;
   font-size: 3rem;
   font-weight: 500;
   padding: 1rem;
