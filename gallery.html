@@ -18,12 +18,12 @@ title: "Gallery"
     <link rel="stylesheet" href="/assets/css/blog-page.css">
 </head>
 
-<body>
+<body style="background-color:var(--color-slate-2)">
     <header>
         {{ page.title }}
     </header>
     {% include navigation.html %}
-    <main style="background-color:var(--color-slate-2)">
+    <main>
     <div class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
