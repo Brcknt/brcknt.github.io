@@ -23,6 +23,7 @@ title: "Gallery"
         {{ page.title }}
     </header>
     {% include navigation.html %}
+    <main style="background-color:var(--color-slate-2)">
     <div class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
@@ -35,6 +36,7 @@ title: "Gallery"
             {% endif %}
         {% endfor %}
     </div>
+    </main>
     {% include footer.html %}
 </body>
 

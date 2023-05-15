@@ -1,6 +1,7 @@
 header {
     background-color: var(--color-slate-0);
-    color: var(--color-white);
+    // color: var(--color-white);
+    color: var(--color-slate-1);
     text-transform: uppercase;
     font-size: 4.21rem;
     font-weight: 500;
@@ -17,7 +18,10 @@ nav {
     height: auto;
     background: var(--color-white);
     margin-inline: 5%;
-    border-bottom: 5px solid var(--color-tan-3);
+    border-inline: 8px solid var(--color-tan-3);
+    border-bottom: 6px solid var(--color-tan-3);
+    box-shadow: 0 3px 6px rgba($color: black, $alpha: 0.5);
+    border-radius: 0 0 10px 10px;
 }
 
 .nav-link-container {
