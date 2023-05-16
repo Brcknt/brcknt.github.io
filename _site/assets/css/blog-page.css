@@ -125,9 +125,12 @@ nav a.current-link {
   color: var(--color-red-4);
 }
 
-article, section {
-  max-width: 60rem;
+section {
   padding: 2rem;
+}
+
+.clamped-width {
+  max-width: 60rem;
   margin: auto;
 }
 

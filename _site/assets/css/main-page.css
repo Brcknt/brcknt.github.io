@@ -172,4 +172,92 @@ blockquote {
   background-color: var(--color-tan-2);
 }
 
-/*# sourceMappingURL=blogpost.css.map */
+.blog-card-container {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.blog-card-text {
+  flex-basis: 20rem;
+  text-decoration: none;
+  display: block;
+  width: 15rem;
+  max-height: 20rem;
+  flex-grow: 2;
+  margin: 0;
+  background: var(--color-white);
+  padding: 1rem;
+  color: black;
+}
+
+.blog-card-image {
+  flex-basis: auto;
+  position: relative;
+  display: block;
+  flex-grow: 1;
+  max-width: 90%;
+  overflow: hidden;
+  margin: 0;
+  background: var(--color-white);
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.blog-card-image img {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  max-height: 20rem;
+  width: 100%;
+}
+
+.shadow-caption {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(transparent, black);
+  color: var(--color-white);
+  font-size: 2.37em;
+  font-weight: 200;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.divider-svg {
+  display: block;
+  width: 100vw;
+  height: 3rem;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.divider-svg-top-white .divider-top {
+  fill: var(--color-white);
+}
+
+.divider-svg-top-slate .divider-top {
+  fill: var(--color-slate-3);
+}
+
+.divider-svg-top-tan .divider-top {
+  fill: var(--color-tan-2);
+}
+
+.divider-svg-bottom-white .divider-bottom {
+  fill: var(--color-white);
+}
+
+.divider-svg-bottom-slate .divider-bottom {
+  fill: var(--color-slate-3);
+}
+
+.divider-svg-bottom-tan .divider-bottom {
+  fill: var(--color-tan-2);
+}
+
+/*# sourceMappingURL=main-page.css.map */

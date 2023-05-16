@@ -1,0 +1,31 @@
+.divider-svg {
+    display: block;
+    width:100vw;
+    height:3rem;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.divider-svg-top-white .divider-top {
+    fill: var(--color-white);
+}
+
+.divider-svg-top-slate .divider-top {
+    fill: var(--color-slate-3);
+}
+
+.divider-svg-top-tan .divider-top {
+    fill: var(--color-tan-2);
+}
+
+.divider-svg-bottom-white .divider-bottom {
+    fill: var(--color-white);
+}
+
+.divider-svg-bottom-slate .divider-bottom {
+    fill: var(--color-slate-3);
+}
+
+.divider-svg-bottom-tan .divider-bottom {
+    fill: var(--color-tan-2);
+}
