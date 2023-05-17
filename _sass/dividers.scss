@@ -8,6 +8,10 @@
 }
 
 .svg-divider-slate {
+    fill: var(--color-slate-2);
+}
+
+.svg-divider-darkslate {
     fill: var(--color-slate-3);
 }
 
@@ -17,4 +21,8 @@
 
 .svg-divider-tan {
     fill: var(--color-tan-0);
+}
+
+.svg-divider-blue {
+    fill: blue;
 }

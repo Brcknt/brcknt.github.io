@@ -6,31 +6,35 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
 
 <section class="bar-white">
     <div class="clamped-width">
-        <h1>Bryce Knight's Website</h1>
+        <h1>This is a Website</h1>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi, obcaecati deleniti. Voluptatibus rerum, id labore nostrum iure debitis perspiciatis deserunt. Reprehenderit modi at atque esse. Dolorum consequuntur magnam libero perspiciatis sequi eos porro delectus earum voluptatem est repudiandae, obcaecati repellendus! Sunt consequuntur velit odit mollitia repellat aut, labore provident reiciendis cumque doloremque libero soluta laudantium obcaecati magni laboriosam accusantium. Architecto, asperiores sint? Similique ullam quas aspernatur, odio iure nulla dignissimos esse et quidem aut. Alias, odio velit natus necessitatibus rerum error ipsa quas ipsum, sit quaerat eos accusamus molestias esse possimus sint impedit tenetur, mollitia facilis quasi laborum temporibus assumenda!
         </p>
     </div>
 </section>
 
-<section class="bar-slate">
+{% include divider-1.html top="white" bottom="tan" %}
+
+<section class="bar-tan">
     <div class="clamped-width">
-        <h2>About</h2>
+        <h3>A Heading</h3>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt et aliquid beatae temporibus laudantium deleniti quam. Omnis harum debitis fuga blanditiis magni iure minus reiciendis delectus asperiores et dolore saepe dolorem dolor molestiae illum nisi, voluptatum libero sint consequuntur dolores tempora in adipisci maiores. Assumenda labore dolores alias mollitia natus.
     </div>
 </section>
 
-{% include divider-1.html top="red" bottom="tan" %}
+{% include divider-2.html top="tan" bottom="white" %}
 
 <section class="bar-white">
   <div class="clamped-width">
-      <h2>A Nice Little Subsection Here</h2>
+      <h3>A Subsection Here</h3>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, similique sed, odio mollitia quo et itaque iusto laboriosam adipisci, veritatis unde iste voluptate. Corrupti, sed a aperiam, saepe odit ut aliquam nobis distinctio consequatur excepturi tempore corporis praesentium porro rerum, ipsum animi maiores temporibus accusantium optio natus similique in cupiditate mollitia. Quibusdam numquam nihil, commodi omnis possimus sapiente ratione hic, voluptatum, inventore molestias ipsam. Quia officiis, amet ipsum ea accusamus illum dolore ipsam voluptatem temporibus commodi, sequi assumenda natus molestias modi explicabo similique, odit cum doloribus. Laborum aliquid quasi dolorem maiores veniam. Temporibus inventore repellat ex ducimus iusto, laborum voluptatum!</p>
   </div>
 </section>
 
-<section class="bar-slate">
-    <h2>3D Art</h2>
+{% include divider-3.html top="white" bottom="darkslate" %}
+
+<section class="bar-darkslate">
+    <h2 class="alt">3D</h2>
     <div class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
@@ -44,3 +48,5 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
         {% endfor %}
     </div>
 </section>
+
+{% include divider-4.html top="darkslate" bottom="white" %}

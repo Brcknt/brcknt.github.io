@@ -57,6 +57,15 @@ h1 {
 h2 {
   font-size: 2.37rem;
   font-weight: 300;
+  text-align: center;
+}
+
+h2.alt {
+  color: var(--color-slate-1);
+  text-transform: uppercase;
+  font-size: 4.21rem;
+  font-weight: 500;
+  text-align: center;
 }
 
 h3 {
@@ -105,24 +114,18 @@ nav {
 
 nav a {
   font-size: 1.5rem;
-  background: var(--color-green-1);
-  color: var(--color-green-4);
+  color: var(--color-red-4);
   font-weight: 500;
-  padding: 0.25rem;
+  padding: 5px;
   margin: 5px;
+  border-radius: 10px;
   text-decoration: none;
   display: block;
 }
 
-nav img {
-  height: 2.5rem;
-  margin: 5px;
-  z-index: 1;
-}
-
 nav a.current-link {
-  background: var(--color-red-1);
-  color: var(--color-red-4);
+  background: var(--color-red-4);
+  color: var(--color-white);
 }
 
 section {
@@ -160,15 +163,23 @@ blockquote {
 }
 
 .bar-slate {
+  background-color: var(--color-slate-2);
+}
+
+.bar-darkslate {
   background-color: var(--color-slate-3);
 }
 
-.bar-slate * {
+.bar-darkslate * {
   color: var(--color-white);
 }
 
+.bar-slate * {
+  color: var(--color-black);
+}
+
 .bar-tan {
-  background-color: var(--color-tan-2);
+  background-color: var(--color-tan-0);
 }
 
 /*# sourceMappingURL=blogpost.css.map */
