@@ -27,6 +27,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -63,7 +67,7 @@ h2 {
 h2.alt {
   color: var(--color-slate-1);
   text-transform: uppercase;
-  font-size: 4.21rem;
+  font-size: 2.37rem;
   font-weight: 500;
   text-align: center;
 }
@@ -170,11 +174,11 @@ blockquote {
   background-color: var(--color-slate-3);
 }
 
-.bar-darkslate * {
+.bar-darkslate > * {
   color: var(--color-white);
 }
 
-.bar-slate * {
+.bar-slate > * {
   color: var(--color-black);
 }
 

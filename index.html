@@ -4,7 +4,7 @@ title: Brcknt_
 header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce Knight">
 ---
 
-<section class="bar-white">
+<section id="home" class="bar-white">
     <div class="clamped-width">
         <h1>This is a Website</h1>
         <p>
@@ -15,7 +15,7 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
 
 {% include divider-1.html top="white" bottom="tan" %}
 
-<section class="bar-tan">
+<section id="about" class="bar-tan">
     <div class="clamped-width">
         <h3>A Heading</h3>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt et aliquid beatae temporibus laudantium deleniti quam. Omnis harum debitis fuga blanditiis magni iure minus reiciendis delectus asperiores et dolore saepe dolorem dolor molestiae illum nisi, voluptatum libero sint consequuntur dolores tempora in adipisci maiores. Assumenda labore dolores alias mollitia natus.
@@ -27,14 +27,20 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
 <section class="bar-white">
   <div class="clamped-width">
       <h3>A Subsection Here</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, similique sed, odio mollitia quo et itaque iusto laboriosam adipisci, veritatis unde iste voluptate. Corrupti, sed a aperiam, saepe odit ut aliquam nobis distinctio consequatur excepturi tempore corporis praesentium porro rerum, ipsum animi maiores temporibus accusantium optio natus similique in cupiditate mollitia. Quibusdam numquam nihil, commodi omnis possimus sapiente ratione hic, voluptatum, inventore molestias ipsam. Quia officiis, amet ipsum ea accusamus illum dolore ipsam voluptatem temporibus commodi, sequi assumenda natus molestias modi explicabo similique, odit cum doloribus. Laborum aliquid quasi dolorem maiores veniam. Temporibus inventore repellat ex ducimus iusto, laborum voluptatum!</p>
-  </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, similique sed, odio mollitia quo et itaque iusto laboriosam adipisci, veritatis unde iste voluptate. Corrupti, sed a aperiam, saepe odit ut aliquam nobis distinctio consequatur excepturi tempore corporis praesentium porro rerum, ipsum animi maiores temporibus accusantium optio natus similique in cupiditate mollitia. Quibusdam numquam nihil, commodi omnis possimus sapiente ratione hic, voluptatum, inventore molestias ipsam. Quia officiis, amet ipsum ea accusamus illum dolore ipsam voluptatem temporibus commodi, sequi assumenda natus molestias modi explicabo similique, odit cum doloribus. Laborum aliquid quasi dolorem maiores veniam. Temporibus inventore repellat ex ducimus iusto, laborum voluptatum!
+      </p>
+      <h4>but wait, there's more!</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis veritatis officia tempora eum nemo voluptatem provident eaque saepe quod ipsa incidunt ratione ducimus, et reiciendis, odio doloribus est autem ea modi cumque itaque sit aliquam. Sequi provident perferendis maiores repellat dicta? Ad eos, sit consequuntur vitae unde ex commodi doloribus dicta, dolor fuga, eveniet animi quae earum debitis maiores non. Voluptatem, natus! Itaque delectus natus tempore laboriosam nulla molestias illum corrupti quia? Dignissimos fuga atque possimus blanditiis neque rem temporibus? Tenetur minima maxime architecto ratione voluptatibus reprehenderit ad dolorem inventore libero natus incidunt, esse vero nisi ut illum earum hic voluptates! Commodi eveniet velit ipsam asperiores eum! Molestias atque excepturi sapiente iusto amet incidunt, fugit perferendis optio reiciendis error ipsa, hic ea obcaecati quam voluptatum animi laborum ad unde impedit magnam, mollitia corrupti ipsam eveniet facilis! Magnam perspiciatis numquam dolore velit delectus accusantium nihil, illo error totam minima ullam et veritatis magni beatae voluptatum quibusdam a. Nihil cum minus iure ad itaque? Nulla asperiores labore dicta totam! Culpa, consequatur obcaecati minus quo quas vero similique neque amet. Eveniet nihil quasi culpa rem eaque, quidem magnam eius architecto necessitatibus voluptatem, provident libero qui, vero beatae? Ipsa minima temporibus quam pariatur accusantium commodi recusandae deleniti, facere atque autem officia unde fugiat tenetur architecto debitis modi dignissimos nemo ipsam doloremque consequatur nostrum! Nisi aperiam dolore debitis quas animi voluptas delectus harum quae sed accusamus natus, inventore eligendi optio nobis ducimus pariatur totam deleniti.
+      </p>
+    </div>
 </section>
 
 {% include divider-3.html top="white" bottom="darkslate" %}
 
-<section class="bar-darkslate">
-    <h2 class="alt">3D</h2>
+<section id="gallery" class="bar-darkslate">
+    <h2 class="alt">All of my stuff</h2>
     <div class="blog-card-container">
         {% for post in site.posts %}
             {% if post.image %}
@@ -44,8 +50,14 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
                     {{ post.title }}
                 </div>
                 </a>
+            {% else %}
+                <a href="{{ post.url }}" class="blog-card-text">
+                <h3>{{ post.title }}</h3>
+                {{ post.blurb }}
+                </a>
             {% endif %}
         {% endfor %}
+        <div style="width: 29rem; height:0; flex-grow: 1000;"></div>
     </div>
 </section>
 

@@ -88,11 +88,11 @@ blockquote {
     background-color: var(--color-slate-3);
 }
 
-.bar-darkslate * {
+.bar-darkslate > * {
     color: var(--color-white);
 }
 
-.bar-slate * {
+.bar-slate > * {
     color: var(--color-black)
 }
 

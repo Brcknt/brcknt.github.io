@@ -6,7 +6,7 @@ image: /assets/images/gridgallery/pyramid.png
 
 # Space Pyramid
 
-<img src="/assets/images/gridgallery/pyramid.png" alt="A CG fractal pyramid floating in space">
+<img src="/assets/images/gridgallery/pyramid.png" alt="woogle">
 
 This project was directly inspired by a Youtube video by CGMatter in which he shows a Rubix-cube-like object with all of its sides spinning randomly, using geometry nodes.
 

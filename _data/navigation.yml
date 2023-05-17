@@ -1,6 +1,6 @@
 - name: Home
-  link: /
-- name: Gallery
-  link: /gallery.html
+  link: /#home
 - name: About
-  link: /about.html
+  link: /#about
+- name: Gallery
+  link: /#gallery
