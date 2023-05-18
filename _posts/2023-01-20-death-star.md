@@ -1,6 +1,6 @@
 ---
 layout: post
 author: Bryce Knight
-image: /assets/images/nomoon.png
+image: /assets/3d-art/nomoon.png
 ---
 # Caius Cosades

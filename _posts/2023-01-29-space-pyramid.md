@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Bryce Knight
-image: /assets/images/gridgallery/pyramid.png
+image: /assets/3d-art/pyramid.png
 ---
 
 # Space Pyramid

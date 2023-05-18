@@ -1,12 +1,12 @@
 ---
 layout: post
 author: Bryce Knight
-image: /assets/images/gridgallery/vivec.jpg
+image: /assets/3d-art/vivec.png
 ---
 
 # Space Pyramid
 
-<img src="/assets/images/gridgallery/vivec.jpg" alt="">
+<img src="/assets/images/gridgallery/vivec.png" alt="">
 
 This project was directly inspired by a Youtube video by CGMatter in which he shows a Rubix-cube-like object with all of its sides spinning randomly, using geometry nodes.
 

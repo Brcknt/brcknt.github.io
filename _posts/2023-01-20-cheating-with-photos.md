@@ -1,6 +1,6 @@
 ---
 layout: post
 author: Bryce Knight
-image: /assets/images/cornerphotos.png
+image: /assets/3d-art/cornerphotos.png
 ---
 # Caius Cosades

@@ -45,7 +45,7 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
         {% for post in site.posts %}
             {% if post.image %}
                 <a href="{{ post.url }}" class="blog-card-image">
-                <img src="{{post.image}}" alt="hmm">
+                <img src="{{post.image | resize: '1150>'}}" alt="">
                 <div class="shadow-caption">
                     {{ post.title }}
                 </div>
@@ -57,7 +57,7 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
                 </a>
             {% endif %}
         {% endfor %}
-        <div style="width: 29rem; height:0; flex-grow: 1000;"></div>
+        <div style="width: 569px; height:0; flex-grow: 1000;"></div>
     </div>
 </section>
 

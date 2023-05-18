@@ -1,6 +1,6 @@
 ---
 layout: post
 author: Bryce Knight
-image: /assets/images/mocherie.png
+image: /assets/3d-art/mocherie.png
 ---
 # Caius Cosades
