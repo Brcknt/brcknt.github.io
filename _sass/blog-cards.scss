@@ -11,15 +11,14 @@
     display: block;
     margin: 0;
     border-radius: 16px;
-    transition: 200ms;
 
 }
 
 .blog-card-text {
     flex-basis: 400px;
     text-decoration: none;
-    width: 320px;
-    max-height: 320px;
+    width: 270px;
+    max-height: 270px;
     flex-grow: 3;
     background: var(--color-white);
     padding:1rem;
@@ -33,14 +32,14 @@
     overflow: hidden;
     background: var(--color-slate-0);
     text-decoration: none;
-    min-width: 160px;
+    min-width: 100px;
 }
 
 .blog-card-image > img, .blog-card-image > picture {
     display: block;
     object-fit: cover;
     object-position: center;
-    max-height: 320px;
+    max-height: 270px;
     width: 100%;
 }
 

@@ -6,7 +6,7 @@ image: /assets/3d-art/pyramid.png
 
 # Space Pyramid
 
-<img src="/assets/images/gridgallery/pyramid.png" alt="woogle">
+![a sci-fi pyramid in space](/assets/3d-art/pyramid.png)
 
 This project was directly inspired by a Youtube video by CGMatter in which he shows a Rubix-cube-like object with all of its sides spinning randomly, using geometry nodes.
 

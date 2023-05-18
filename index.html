@@ -45,7 +45,7 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
         {% for post in site.posts %}
             {% if post.image %}
                 <a href="{{ post.url }}" class="blog-card-image">
-                <img src="{{post.image | resize: '1150>'}}" alt="">
+                <img src="{{post.image | resize: '960>'}}" alt="">
                 <div class="shadow-caption">
                     {{ post.title }}
                 </div>
@@ -61,4 +61,4 @@ header: <img height="150" src="assets/logo/logo-wide-color-card.svg" alt="Bryce 
     </div>
 </section>
 
-{% include divider-4.html top="darkslate" bottom="white" }
+{% include divider-4.html top="darkslate" bottom="white" %}
