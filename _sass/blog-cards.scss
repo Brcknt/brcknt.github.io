@@ -18,7 +18,7 @@
     flex-basis: 400px;
     text-decoration: none;
     width: 270px;
-    max-height: 270px;
+    height: 270px;
     flex-grow: 3;
     background: var(--color-white);
     padding:1rem;
@@ -35,12 +35,28 @@
     min-width: 100px;
 }
 
-.blog-card-image > img, .blog-card-image > picture {
+.blog-card-image > img {
     display: block;
     object-fit: cover;
     object-position: center;
     max-height: 270px;
     width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .blog-card-image > img {
+        max-height: 180px;
+    }
+
+    .blog-card-image {
+        min-width: 50px;
+    }
+
+    .blog-card-text {
+        flex-basis: 270px;
+        width: 180px;
+        height: 180px;
+    }
 }
 
 .shadow-caption {
