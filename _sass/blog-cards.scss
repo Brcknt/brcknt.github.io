@@ -23,6 +23,18 @@
     background: var(--color-white);
     padding:1rem;
     color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.blog-card-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: transparent;
+    box-shadow: inset 0 -1rem 1rem var(--color-white);
 }
 
 .blog-card-image {
