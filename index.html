@@ -46,7 +46,7 @@ header: Bryce Knight
         {% for post in site.posts %}
             {% if post.image %}
                 <a href="{{ post.url }}" class="blog-card-image">
-                <img src="{{post.image | resize: '960>'}}" alt="">
+                <img src="{{ post.image }}" alt="">
                 <div class="shadow-caption">
                     {{ post.title }}
                 </div>
