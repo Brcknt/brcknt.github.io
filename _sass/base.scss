@@ -1,6 +1,6 @@
 :root{
-    --color-white: white;
-    --color-black: black;
+    --color-white: #f6f2ef;
+    --color-black: #1f1f1f;
     
     --color-slate-0: #768998;
     --color-slate-1: #D4D9DD;
@@ -25,6 +25,10 @@
     --color-tan-2: #FFF1DE;
     --color-tan-3: #C8A87E;
     --color-tan-4: #A78251;
+
+    --color-pink-0: #f45ddb;
+
+    --color-blue-0: #747ced;
 }
 
 * {
@@ -33,7 +37,6 @@
 
 html {
     scroll-behavior: smooth;
-    min-width: 600px;
 }
 
 body {

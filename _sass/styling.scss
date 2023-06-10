@@ -75,6 +75,23 @@ blockquote {
     font-style: italic;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-card {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba($color: var(--color-pink-0), $alpha: 0.5);
+}
+
+.button {
+    background-color: var(--color-pink-0);
+    padding:10px;
+    border-radius: 10px;
+}
+
 .bar-white {
     background-color: var(--color-white);
 }
