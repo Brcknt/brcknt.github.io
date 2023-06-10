@@ -1,12 +1,11 @@
 ---
+title: Greeble Material
+longtitle: Greebling Material Experiment
 layout: post
 author: Bryce Knight
-title: Greeble Material
 image: /assets/3d-art/strdstr.png
+alttext: greebled star destroyer
 ---
-# Greeble Material Experiment
-
-![greebled star destroyer](/assets/3d-art/strdstr.png)
 
 This was created primarily to test the results of my experimenting with trying to create a procedural sci-fi panelling material.
 

@@ -51,7 +51,7 @@ section {
 
 .clamped-width {
     max-width:60rem;
-    margin: auto;
+    margin-inline: auto;
 }
 
 img.image-big , img.image-inside {
@@ -77,45 +77,45 @@ blockquote {
 
 .flex-container {
     display: flex;
+    width: 100%;
 }
 
 .flex-card {
-    margin: 1rem;
     padding: 1rem;
-    border-radius: 1rem;
-    background-color: rgba($color: var(--color-pink-0), $alpha: 0.5);
+    flex-grow: 1;
 }
 
 .button {
+    display: block;
+    margin: auto;
+    padding:15px;
+    border: none;
+    font-family: Lexend, sans-serif;
     background-color: var(--color-pink-0);
+    font-size: 1.333rem;
+    border-radius: 20px;
+}
+
+.button-link {
+    display: block;
+    width: max-content;
+    margin: auto;
     padding:10px;
+    border: none;
+    font-family: Lexend, sans-serif;
+    background-color: var(--color-pink-0);
+    font-size: 1.333rem;
     border-radius: 10px;
-}
-
-.bar-white {
-    background-color: var(--color-white);
-}
-
-.bar-slate {
-    background-color: var(--color-slate-2);
-}
-
-.bar-darkslate {
-    background-color: var(--color-slate-3);
-}
-
-.bar-darkslate > * {
-    color: var(--color-white);
-}
-
-.bar-slate > * {
-    color: var(--color-black)
-}
-
-.bar-tan {
-    background-color: var(--color-tan-0);
+    text-decoration: none;
+    color: var(--color-black);
 }
 
 footer {
     padding: 1rem;
+}
+
+.text-gradient {
+    background-image: linear-gradient(to right, var(--color-blue-0), var(--color-pink-0));
+    background-clip: text;
+    color: transparent;
 }

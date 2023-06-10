@@ -1,11 +1,10 @@
 ---
+title: Cheating With Photos
 layout: post
 author: Bryce Knight
 image: /assets/3d-art/cornerphotos.png
+alttext: Alley corner made with photos
 ---
-# Cheating With Photography
-
-![Alley corner made with photos](/assets/3d-art/cornerphotos.png)
 
 I'd been inspired by rewatching some stuff by Ian Hubert, in which he shows his workflow for how he creates 3D scenes, by taking photos of real-world surfaces that seem interesting, and using them as a basis for his assets, especially in the background. I myself have always preferred to use procedural materials for everything, as it avoids me having to do any UV unwrapping, and part of it has just always just felt “cleaner”, making everything myself totally from scratch.
 

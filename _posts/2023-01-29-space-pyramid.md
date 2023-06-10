@@ -1,12 +1,10 @@
 ---
+title: Space Pyramid
 layout: post
 author: Bryce Knight
 image: /assets/3d-art/pyramid.png
+alttext: a sci-fi pyramid in space
 ---
-
-# Space Pyramid
-
-![a sci-fi pyramid in space](/assets/3d-art/pyramid.png)
 
 This project was directly inspired by a Youtube video by CGMatter in which he shows a Rubix-cube-like object with all of its sides spinning randomly, using geometry nodes.
 

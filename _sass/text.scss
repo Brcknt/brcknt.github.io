@@ -5,14 +5,12 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-    text-transform: capitalize;
     margin-block: 1rem;
 }
 
 h1 {
     font-size: 3.16rem;
-    font-weight: 300;
-    text-align: center;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -40,5 +38,5 @@ h4 {
 }
 
 p {
-    // line-height: 1.25em;
+    line-height: 1.5em;
 }

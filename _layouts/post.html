@@ -5,7 +5,7 @@
 <html>
 
 <head>
-    <title>Brcknt_</title>
+    <title>{{ page.title }}</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="/assets/css/blogpost.css">
 </head>
 
-<body>
-    <section>
-        <a href="/">Back</a>
+<body style="background-color: var(--color-grey);">
+    {% if page.image %}
+        <img src="{{ page.image }}" alt="{{ page.alttext }}">
+    {% endif %}
+    <section class="clamped-width" style="background-color: var(--color-white);">
         {{content}}
+        <a href="/#gallery" class="button-link">Back</a>
     </section>
     {% include footer.html %}
 </body>

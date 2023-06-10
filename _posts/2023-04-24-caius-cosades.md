@@ -1,17 +1,15 @@
 ---
+title: Caius Cosades
 layout: post
 author: Bryce Knight
 image: /assets/3d-art/mocherie.png
-type: 3d
+alttext: a creepy looking render of caius cosades
 ---
-
-# Caius Cosades
-
-![a creepy looking render of caius cosades](/assets/3d-art/mocherie.png)
 
 This slightly unnerving image was the result of an (as yet) unfinished project that I started as an exercise in asset creation, specifically video game assets.
 
 I wanted to try going through the workflow of creating a single completed game-ready asset, meaning it had to have:
+
 - A low polygon count
 - Image textures, which need:
 - Good UVs
