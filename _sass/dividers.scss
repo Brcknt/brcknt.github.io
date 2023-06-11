@@ -3,26 +3,6 @@
     width: 100%;
 }
 
-.svg-divider-white {
+.svg-divider > * {
     fill: var(--color-white);
-}
-
-.svg-divider-slate {
-    fill: var(--color-slate-2);
-}
-
-.svg-divider-darkslate {
-    fill: var(--color-slate-3);
-}
-
-.svg-divider-red {
-    fill: var(--color-red-3);
-}
-
-.svg-divider-tan {
-    fill: var(--color-tan-0);
-}
-
-.svg-divider-blue {
-    fill: blue;
 }
