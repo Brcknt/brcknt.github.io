@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="120"
+   height="120"
+   viewBox="0 0 120 120"
+   fill="none"
+   version="1.1"
+   id="svg7"
+   sodipodi:docname="logo-feature.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="4.4894411"
+     inkscape:cx="-23.499584"
+     inkscape:cy="66.155228"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7">
+    <inkscape:grid
+       type="xygrid"
+       id="grid294" />
+  </sodipodi:namedview>
+  <path
+     d="M 5,5 H 63 V 70 L 57,64 V 11 H 11 V 22 L 44,55 H 36 L 5,24 Z"
+     fill="#000"
+     class="svg-logo svg-logo-base"
+     id="path14"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M 5,63 H 25 L 19,57 H 11 V 46 L 55,90 V 82 L 5,32 Z"
+     fill="#000"
+     class="svg-logo svg-logo-base"
+     id="path16"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="M 55,57 H 33 l 6,6 h 16 z"
+     fill="#000"
+     class="svg-logo svg-logo-base"
+     id="path18"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="m 65,57 h 50 v 58 H 96 L 46,65 h 9 l 44,44 h 10 V 63 H 65 Z"
+     fill="#000"
+     class="svg-logo svg-logo-base"
+     id="path20"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="m 63,85 v 24 h 11 l -9,-9 v -8 l 23,23 H 57 V 79 Z"
+     fill="#000"
+     class="svg-logo svg-logo-base"
+     id="path22"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     style="font-variation-settings:'wght' 500;fill:#000000;stroke-width:6.6;fill-opacity:1"
+     d="m 65,55 h 50 V 48 L 72,5 h -7 v 34 h 6 V 13 l 36,36 H 65 Z"
+     id="path296"
+     sodipodi:nodetypes="ccccccccccc" />
+  <path
+     style="font-variation-settings:'wght' 500;fill:#000000;stroke-width:6.6;fill-opacity:1"
+     d="m 65,41 v 6 h 37 L 73,18 v 21 h 6 v -6 l 8,8 z"
+     id="path448" />
+  <path
+     style="font-variation-settings:'wght' 500;fill:#000000;stroke-width:6.6;fill-opacity:1"
+     d="M 26,65 H 5 v 7 l 43,43 h 7 V 94 l -6,-6 v 19 L 13,71 h 19 z"
+     id="path296-4"
+     sodipodi:nodetypes="ccccccccccc" />
+  <path
+     style="font-variation-settings:'wght' 500;fill:#000000;stroke-width:6.6;fill-opacity:1"
+     d="M 51,17 V 53 L 15,17 Z"
+     id="path452"
+     sodipodi:nodetypes="cccc" />
+  <path
+     style="font-variation-settings:'wght' 500;fill:#000000;stroke-width:6.6;fill-opacity:1"
+     d="m 103,69 v 36 L 67,69 Z"
+     id="path452-9"
+     sodipodi:nodetypes="cccc" />
+</svg>

@@ -1,0 +1,111 @@
+:root {
+    --big-size: 240px;
+    --small-size: 160px;
+}
+
+.blog-card-container {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.blog-card-image, .blog-card-text {
+    transition: 200ms;
+    display: block;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+.blog-card-image:hover, .blog-card-text:hover {
+    transform: translate(0, -3px);
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.5);
+}
+
+.blog-card-image:focus, .blog-card-text:focus {
+    transition: 50ms;
+    transform: none;
+}
+
+
+
+.blog-card-text {
+    text-decoration: none;
+    width: var(--big-size);
+    height: var(--big-size);
+    flex-grow: 3;
+    background: var(--background-0);
+    padding:1rem;
+    color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.blog-card-text::after {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    background-color: transparent;
+    box-shadow: inset 0 -1rem 1rem var(--background-0);
+}
+
+.blog-card-image {
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
+    text-decoration: none;
+    height: var(--big-size);
+}
+
+.blog-card-image > picture > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.shadow-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(transparent, black);
+    color: var(--background-0);
+    font-weight: 200;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding:1rem 0.5rem 0.5rem 0.5rem
+}
+
+@media only screen and (max-width: 50rem) {
+
+    .blog-card-container {
+        gap: 10px;
+    }
+
+    .blog-card-image {
+        height: var(--small-size);
+    }
+
+    .blog-card-text {
+        width: var(--small-size);
+        height: var(--small-size);
+        font-size: 0.75em;
+    }
+
+    .blog-card-text h3 {
+        font-size: 1.333em;
+        margin-block: 0.5em;
+    }
+
+    .shadow-caption {
+        font-size: 1.33rem;
+    }
+}
