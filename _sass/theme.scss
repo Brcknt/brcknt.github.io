@@ -56,15 +56,25 @@
     --accent-4: color-mix(in srgb, var(--accent-0), #fff 55%);
 }
 
-@media all and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     :root {
         --pad-l: 2rem ;
         --pad-m: 1rem;
-        --pad-s: 0.5rem;
+        --pad-s: 1rem;
     }
 
     html {
-        font-size: 12px;
+        font-size: 0.64rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    :root {
+        --pad-l: 1rem ;
+    }
+
+    html {
+        font-size: 0.64rem;
     }
 }
 header {
@@ -215,7 +225,7 @@ button {
     display: grid;
     grid-template-columns: 3fr 2fr 1fr;
     gap: var(--pad-m);
-    font-size: 1.25em;
+    // font-size: 1.25em;
 }
 
 .bento-box>* {

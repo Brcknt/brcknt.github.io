@@ -1,6 +1,8 @@
 :root {
-    --big-size: 240px;
-    --small-size: 160px;
+    // --big-size: 240px;
+    // --small-size: 160px;
+    --big-size: 120px;
+    --small-size: 80px;
 }
 
 .blog-card-container {
@@ -101,7 +103,7 @@
     }
 
     .blog-card-text h3 {
-        font-size: 1.333em;
+        font-size: 1.563em;
         margin-block: 0.5em;
     }
 
