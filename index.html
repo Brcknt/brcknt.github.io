@@ -116,9 +116,9 @@ layout: default
             <div class="blog-card-container">
                 {% for post in site.posts %}
                 {% if post.image %}
-                <a href="{{ post.url }}" class="blog-card-image">
+                <!-- <a href="{{ post.url }}" class="blog-card-image" style="background-image: url(/assets/thumbnails-200/{{post.image}});"> -->
                     
-                    <img src="/assets/thumbnails-200/{{post.image}}" alt="{{ post.title }}">
+                    <img class="blog-card-image" src="/assets/thumbnails-200/{{post.image}}" alt="{{ post.title }}">
                     <!-- <picture>
                         <source srcset="/assets/thumbnails-200/{{post.image}}" media="(max-width: 50rem)">
                         <img src="/assets/thumbnails-400/{{post.image}}" alt="{{ post.title }}">
