@@ -117,15 +117,16 @@ layout: default
                 {% for post in site.posts %}
                 {% if post.image %}
                 <a href="{{ post.url }}" class="blog-card-image">
-        
-                    <picture>
+                    
+                    <img src="/assets/thumbnails-200/{{post.image}}" alt="{{ post.title }}">
+                    <!-- <picture>
                         <source srcset="/assets/thumbnails-200/{{post.image}}" media="(max-width: 50rem)">
                         <img src="/assets/thumbnails-400/{{post.image}}" alt="{{ post.title }}">
-                    </picture> 
+                    </picture>  -->
         
-                    <h3 class="shadow-caption">
+                    <!-- <h3 class="shadow-caption">
                         {{ post.title }}
-                    </h3>
+                    </h3> -->
                 </a>
                 {% else %}
                 <a href="{{ post.url }}" class="blog-card-text">
