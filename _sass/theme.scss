@@ -3,6 +3,7 @@
     --pad-l: 5rem ;
     --pad-m: 2rem;
     --pad-s: 1rem;
+    --cols: 3;
 
     /* --text: #041615;
     --background: #e1faf8;
@@ -56,27 +57,7 @@
     --accent-4: color-mix(in srgb, var(--accent-0), #fff 55%);
 }
 
-@media screen and (max-width: 600px) {
-    :root {
-        --pad-l: 2rem ;
-        --pad-m: 1rem;
-        --pad-s: 1rem;
-    }
 
-    html {
-        font-size: 0.64rem;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    :root {
-        --pad-l: 1rem ;
-    }
-
-    html {
-        font-size: 0.64rem;
-    }
-}
 header {
     display: flex;
     flex-flow: row;
@@ -125,14 +106,6 @@ button {
     border-radius: 10px;
 }
 
-.button-primary {
-    background-color: var(--primary-0);
-}
-
-.button-secondary {
-    background-color: var(--secondary-0);
-}
-
 .bubble-primary {
     --clr: var(--primary-0);
     --l: var(--primary-3);
@@ -164,7 +137,9 @@ button {
             var(--d) 100%);
 }
 
-.bubble-heading {
+.bubble > *:nth-child(1)
+{
+    // display: none;
     margin-top: 0;
 }
 
@@ -223,7 +198,7 @@ button {
 
 .bento-box {
     display: grid;
-    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-columns: repeat( var(--cols), 1fr);
     gap: var(--pad-m);
     // font-size: 1.25em;
 }
@@ -233,7 +208,14 @@ button {
     padding: var(--pad-m);
 }
 
-@media all and (max-width: 50rem) {
+.pixel-transition {
+    line-height: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --cols: 2;
+    }
     .flex-adapt {
         flex-direction: column;
     }
@@ -243,18 +225,26 @@ button {
     }
 }
 
-.gallery {
-    display: flex;
-    flex-flow: row wrap;
-    list-style-type: none;
-    gap: var(--pad-s);
-    margin: 0;
-    padding: 0;
+@media screen and (max-width: 600px) {
+    :root {
+        // --background-0: goldenrod;
+        --pad-l: 2rem ;
+        --pad-m: 1rem;
+        --pad-s: 1rem; 
+    }
+
+    html {
+        font-size: 0.8rem;
+    }
 }
 
-.galleryCard {
-    height: 10rem;
-    flex: content 1;
-    background: var(--background-2);
-    padding: 2rem;
+@media screen and (max-width: 360px) {
+    :root {
+        // --background-0: salmon;
+        --pad-l: 1rem ;
+    }
+
+    html {
+        font-size: 0.64rem;
+    }
 }
